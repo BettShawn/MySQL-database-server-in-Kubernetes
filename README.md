@@ -42,8 +42,22 @@ Prerequisites:
 
   First, create a working directory and navigate in:
 
+     mkdir mysql-kube
+     cd mysql-kube/
+
+  I created a simple bash script to automate this
+
+    #!/bin/bash
+    
+    echo "**** Script Begin"
+    
     mkdir mysql-kube
     cd mysql-kube/
+    
+    echo "**** Script End"
+    
+![image](https://github.com/BettShawn/MySQL-database-server-in-Kubernetes/assets/51289343/ecfc86fc-2ec6-4575-96fd-0e9d32f6e9ca)
+
   Create a yaml file named mysql-pv.yaml, put in the following:
     
     apiVersion: v1
