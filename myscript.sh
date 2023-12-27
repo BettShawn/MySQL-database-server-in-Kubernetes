@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "**** Begin"
+echo "**** Script Begin"
 
 mkdir mysql-kube
 cd mysql-kube/
 
 
-echo "**** End"
+echo "**** Script End"
