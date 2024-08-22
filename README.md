@@ -31,12 +31,12 @@ A Persistent Volume can be created statically or dynamically. In the next phase 
 
 Prerequisites:
 
-(a) Docker in our machine;
+(a) [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) installed in our machine;
 
-(b) Local Kubernetes Cluster via Minikube;
+(b) Local Kubernetes Cluster via [Minikube](https://v1-18.docs.kubernetes.io/docs/tasks/tools/install-minikube/);
 
     *Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster for users looking to try out Kubernetes or develop with it day-to-day.*
-
+(c) (Optional) An account on [Docker Hub](https://hub.docker.com/) if you wish to create your own images and push them to Docker Hub
 
 1. Build a Persistent Volume (PV);
 
